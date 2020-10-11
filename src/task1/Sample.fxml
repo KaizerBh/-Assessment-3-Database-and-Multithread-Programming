@@ -14,12 +14,12 @@
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="insertButton" layoutX="236.0" layoutY="246.0" mnemonicParsing="false" text="Insert">
+      <Button fx:id="insertButton" layoutX="236.0" layoutY="246.0" mnemonicParsing="false" onAction="#executeInsertQuery" onMouseClicked="#lockIDFieldOnKeyPressed" onMouseEntered="#lockIDFieldOnKeyPressed" text="Insert">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button fx:id="updateButton" layoutX="299.0" layoutY="246.0" mnemonicParsing="false" text="Update">
+      <Button fx:id="updateButton" layoutX="299.0" layoutY="246.0" mnemonicParsing="false" onAction="#executeUpdateQuery" text="Update">
          <font>
             <Font size="14.0" />
          </font>
