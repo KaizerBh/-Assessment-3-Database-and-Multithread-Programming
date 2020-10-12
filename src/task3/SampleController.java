@@ -47,12 +47,12 @@ public class SampleController implements Initializable, Runnable {
 		notify();
 	}
 
-	/** Increases the speed of the ball by 0.1 to a maximum of 5.
+	/** Increases the speed of the ball by 0.1 to a maximum of 10.
      */
 	public synchronized void increaseSpeed() {
 		speed += 0.1;
-		if (speed > 5) {
-			speed = 5;
+		if (speed > 10) {
+			speed = 10;
 		}
 		label.setText("Ball Speed: " + speed);
 	}
