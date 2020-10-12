@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="600" maxWidth="600.0" minHeight="600" minWidth="600" prefHeight="600" prefWidth="600" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="task2.SampleController">
+   <children>
+      <PieChart fx:id="pie" layoutX="1.0" prefHeight="600.0" prefWidth="600.0" title="Staff Location By State" />
+   </children>
+</Pane>
